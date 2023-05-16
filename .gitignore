@@ -1,2 +1,2 @@
 #ignorar arquivos:
-.bluej
+*package.bluej
