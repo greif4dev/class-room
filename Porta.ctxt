@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Porta
+comment1.params=c
+comment1.target=Porta(int)
+comment2.params=umaCor
+comment2.target=void\ setCor(int)
+comment3.params=
+comment3.target=boolean\ isAberta()
+comment4.params=
+comment4.target=int\ getCor()
+comment5.params=
+comment5.target=java.lang.String\ getDescricaoCor()
+comment6.params=novaCor
+comment6.target=void\ pinta(int)
+comment7.params=
+comment7.target=void\ pinta()
+comment8.params=
+comment8.target=void\ abre()
+comment9.params=
+comment9.target=void\ fecha()
+numComments=10
