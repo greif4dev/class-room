@@ -4,7 +4,7 @@ public class Porta{
     
     public Porta(int c){
         cor = c;
-        if(c>5){
+        if (c>5){
             cor = 5;
         }
         if(c<1){
