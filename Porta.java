@@ -2,13 +2,13 @@ public class Porta{
     private int cor;
     private boolean aberta;
     
-    public Porta(int c){
-        cor = c;
-        if (c>5){
-            cor = 5;
+    public Porta(int cor){
+        this.cor = cor;
+        if (cor>5){
+            this.cor = 5;
         }
-        if(c<1){
-            cor = 5;
+        if(cor<1){
+            this.cor = 5;
         }
         aberta = false;
     }
@@ -52,52 +52,18 @@ public class Porta{
     }
     
     public void pinta(int novaCor){
-        if(cor==novaCor){
-            if(cor==1){
-                cor ++;
-            }
-            if(cor==2){
-                cor ++;        
-            }
-            if(cor==3){
-                cor ++;
-            }
-            if(cor==4){
-                cor ++;
-            }
-            if(cor==5){
-                cor = 1;
-            }
-        }
-        else{
-            cor = novaCor;
-        }
+        cor = novaCor;
         if(novaCor>5){
             cor = 5;
         }
         if(novaCor<1){
             cor = 5;
         }
-        else{
-        cor = novaCor;
-        }
     }
     
     public void pinta(){
-        if(cor==1){
+        if(cor==cor){
             cor ++;
-        }
-        if(cor==2){
-            cor ++;        
-        }
-        if(cor==3){
-            cor ++;
-        }
-        if(cor==4){
-            cor ++;
-        }
-        if(cor==5){
-            cor = 1;
         }
     }
     

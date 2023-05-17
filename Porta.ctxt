@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Porta
-comment1.params=c
+comment1.params=cor
 comment1.target=Porta(int)
 comment2.params=umaCor
 comment2.target=void\ setCor(int)
