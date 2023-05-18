@@ -51,19 +51,21 @@ public class Porta{
         }
     }
     
-    public void pinta(int novaCor){
-        cor = novaCor;
-        if(novaCor>5){
-            cor = 5;
-        }
-        if(novaCor<1){
-            cor = 5;
+    public void pinta(int novaCor) {
+        if (novaCor >= 1 && novaCor <= 5) {
+            if (cor != novaCor) {
+                cor = novaCor;
+            } else {
+                cor = (cor % 5) + 1;
+            }
+        } else {
+            cor = 5; // Valor padrão quando as condições não são atendidas
         }
     }
     
     public void pinta(){
         if(cor==cor){
-            cor ++;
+            cor = (cor % 5) + 1;
         }
     }
     
