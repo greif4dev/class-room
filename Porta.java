@@ -33,19 +33,19 @@ public class Porta{
     
     public String getDescricaoCor(){
         if(cor==1){
-            return "verde";
+            return "Verde";
         }
         if(cor==2){
-            return "azul";
+            return "Azul";
         }
         if(cor==3){
-            return "amarelo";
+            return "Amarelo";
         }
         if(cor==4){
-            return "vermelho";
+            return "Vermelho";
         }
         if(cor==5){
-            return "branco";
+            return "Branco";
         }else{
             return "erro";
         }
