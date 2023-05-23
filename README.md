@@ -1,5 +1,5 @@
 ﻿# Sala-de-Aula
-### Projetinho em Java utilizando o conceto de Associação e Relacionamento entre classes
+### Projetinho em Java utilizando o conceito de Associação e Relacionamento entre classes
 
 ## Regras de Negócio:
 
